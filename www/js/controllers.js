@@ -26,6 +26,10 @@ angular.module('starter.controllers', ['ionic'])
 */
 .controller('ticketGeradoCtrl', function($scope, $stateParams, Chats, Cads, $ionicModal, $timeout, $state, $ionicLoading, $ionicPopup) {
 
+  
+  $scope.random = Math.floor((Math.random() * 999) + 0);
+  
+    
 
   $scope.show1 = function(timer) {
 

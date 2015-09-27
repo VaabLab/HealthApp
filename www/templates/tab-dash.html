@@ -2,9 +2,10 @@
   <ion-content>
     <ion-list>
       <ion-item ng-repeat="hospital in hospitais" href="#/tab/dash/{{hospital.id}}">
-        <i class="icon ion-more"></i>
-        {{hospital.name}}<p></p>
-        <p><br><font size="2">Estimativa de Atendimento: {{hospital.time}}</font></p>
+        <p><i class="icon ion-more"></i>
+        {{hospital.name}}
+        </p>
+        <p><font size="2">Estimativa de Atendimento: {{hospital.time}}</font></p>
         <font size="2">Tempo de Percurso: {{hospital.time2}}</font>
       </ion-item>
     </ion-list>

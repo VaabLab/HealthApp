@@ -188,7 +188,7 @@ h1 {
 	color:#6C6;
 }
 .wc_backgroud {
-  background: url(http://modmyi.com/attachments/forums/iphone-4-4s-new-skins-themes-launches/612941d1348574695-boss-ios-now-available-theme-app-wallpaper.png);
+  background: url(../img/fundo.jpg);
   /* background-repeat: no-repeat; */
   background-size: cover;
   width: 100%;
@@ -201,10 +201,11 @@ h1 {
 }
 .logo {
   box-sizing: border-box;
-  background: url(../img/logo3.png) no-repeat;
+  background: url(../img/logo.png) no-repeat;
   height: 166px;
-  width: 137px; 
-  margin: 17% auto;
+  width: 311px; 
+  margin-top: 192px;
+  /* margin: 17% auto; */
 }
 .wc_container {
   width: 87%;
