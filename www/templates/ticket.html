@@ -1,0 +1,23 @@
+<ion-view view-title="Tempo Atendimento">
+  <ion-content>
+	<div class="list card">
+
+		<div class="item">
+			<p><h2>Hospital : {{ticket.name}}</h2></p>
+			<br>
+			<p>Estimativa de Atendimento: {{ticket.time}}</p>
+			<p>Tempo de Percurso: {{ticket.time2}}</p>
+			<br>
+			<p>Endereço: {{ticket.time2}}</p>
+			<p>Telefone: {{ticket.time2}}</p>
+		</div>
+		
+		<div class="" align="center">
+			<a class="item  assertive" href="#/tab/gerado/{{ticket.id}}">
+				<button class="button icon-left ion-happy-outline button-positive">Gerar Ticket</button>
+			</a>
+		</div>
+
+	</div>
+  </ion-content>
+</ion-view>

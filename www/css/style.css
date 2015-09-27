@@ -1,0 +1,239 @@
+
+.cardWrap {
+  width: 27em;
+  margin: 3em auto;
+  color: #C1BEBE;
+  font-family: sans-serif;
+}
+
+.card1 {
+  background: linear-gradient(to bottom, #009EFF  26%, #ecedef 26%, #ecedef 100%);
+  height: 11em;
+  float: left;
+  position: relative;
+  padding: 1em;
+}
+
+.cardLeft {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  width: 204px;
+}
+
+.cardRight {
+  width: 9.5em;
+  border-left: .18em dashed #fff;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: .9em;
+    height: .9em;
+    background: #fff;
+    border-radius: 50%;
+    left: -.5em;
+  }
+  &:before {
+    top: -.4em;
+  }
+  &:after {
+  bottom: -.4em;
+  }
+}
+
+h1 {
+  font-size: 1.1em;
+  margin-top: 0;
+  span {
+    font-weight: normal;
+  }
+}
+
+.title, .name1 , card1, .seat, .time {
+  text-transform: uppercase;
+  font-weight: normal;
+  h2 {
+    font-size: .9em;
+    color: #525252;
+    margin: 0;
+   }
+  span {
+    font-size: .7em;
+    color: #a2aeae;
+  }
+}
+
+.title {
+  margin: 2em 0 0 0;
+}
+
+.name1, card1, .seat {
+	margin: -3px;
+	top: 11px;
+	position: inherit;
+	margin-bottom: 26px;
+}
+
+.time {
+  margin: .7em 0 0 1em;
+}
+
+.seat, .time {
+  float: left;
+
+
+}
+.h3 {
+	margin-bottom: 5px;
+}
+.eye {
+  position: relative;
+  width: 2em;
+  height: 1.5em;
+  background: #fff;
+  margin: 0 auto;
+  border-radius: 1em/0.6em;
+  z-index: 1;
+  &:before, &:after {
+    content:"";
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+  }
+  &:before {
+    width: 1em;
+    height: 1em;
+    background: #e84c3d;
+    z-index: 2;
+    left: 8px;
+    top: 4px;
+  }
+  &:after {
+  width: .5em;
+  height: .5em;
+  background: #fff;
+  z-index: 3;
+  left: 12px;
+  top: 8px;
+  }
+}
+
+.number {
+	text-align: center;
+	text-transform: uppercase;
+	position: inherit;
+	top: -8px;
+  h3 {
+    color: #e84c3d;
+    margin: .9em 0 0 0;
+    font-size: 2.5em;
+    
+  }
+  span {
+    display: block;
+    color: #a2aeae;
+  }
+}
+
+.barcode {
+  height: 5em;
+  width: 0;
+  margin: 1.2em 0 0 .8em;
+  box-shadow: 1px 0 0 1px #343434,
+  5px 0 0 1px #343434,
+  10px 0 0 1px #343434,
+  11px 0 0 1px #343434,
+  15px 0 0 1px #343434,
+  18px 0 0 1px #343434,
+  22px 0 0 1px #343434,
+  23px 0 0 1px #343434,
+  26px 0 0 1px #343434,
+  30px 0 0 1px #343434,
+  35px 0 0 1px #343434,
+  37px 0 0 1px #343434,
+  41px 0 0 1px #343434,
+  44px 0 0 1px #343434,
+  47px 0 0 1px #343434,
+  51px 0 0 1px #343434,
+  56px 0 0 1px #343434,
+  59px 0 0 1px #343434,
+  64px 0 0 1px #343434,
+  68px 0 0 1px #343434,
+  72px 0 0 1px #343434,
+  74px 0 0 1px #343434,
+  77px 0 0 1px #343434,
+  81px 0 0 1px #343434;
+}
+
+.position{
+	position: absolute;
+    left: 180px;
+}
+
+.card2{
+	position: absolute;
+    left: 10px;
+}
+
+.email.ng-valid{
+	color:green;
+}
+.email.ng-dirty.ng-invalid-required{
+	color:red;
+}
+.email.ng-dirty.ng-invalid-minlenght{
+	color:#6C6;
+}
+.wc_backgroud {
+  background: url(http://modmyi.com/attachments/forums/iphone-4-4s-new-skins-themes-launches/612941d1348574695-boss-ios-now-available-theme-app-wallpaper.png);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  opacity:0.65;
+  -moz-opacity: 0.65;
+  filter: alpha(opacity=65);
+
+}
+.logo {
+  box-sizing: border-box;
+  background: url(../img/logo3.png) no-repeat;
+  height: 166px;
+  width: 137px; 
+  margin: 17% auto;
+}
+.wc_container {
+  width: 87%;
+  height: 100%;
+  margin: auto;
+  z-index: 2;
+}
+.footer{
+	background:none;
+}
+
+
+body {
+	cursor: url('http://ionicframework.com/img/finger.png'), auto;
+}
+
+/*
+* http://docs.angularjs.org/api/ng/directive/ngShow#usage_animations
+*/
+.list .item.item-accordion {
+    line-height: 19px;
+    /* padding-top: 0; */
+    /* padding-bottom: 0; */
+    transition: 0.09s all linear;
+}
+.list .item.item-accordion.ng-hide {
+	line-height: 0px;
+}
+.list .item.item-accordion.ng-hide-add,
+.list .item.item-accordion.ng-hide-remove {
+	display: block !important;
+}
