@@ -1,2 +1,6 @@
-# HealthApp
-Projeto Desenvolvido Durante um Hack
+# SemEspera
+
+Projeto Desenvolvido Durante um Hackathon da GE : http://his.events/event/hack4health/
+
+Projeto Mocado
+
